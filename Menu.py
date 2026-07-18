@@ -1,7 +1,4 @@
-# ----------------------------------------
-# Matriz del menú del restaurante
-# [Nombre, Categoría, Precio Base]
-# ----------------------------------------
+
 
 menu = [
     ["Hamburguesa", "Comida", 25000],
@@ -12,16 +9,12 @@ menu = [
     ["Brownie", "Postre", 15000]
 ]
 
-# ----------------------------------------
-# Configuración de la promoción
-# ----------------------------------------
+
 
 categoria_objetivo = "Comida"
 umbral = 20000
 
-# ----------------------------------------
-# Función para calcular el precio final
-# ----------------------------------------
+
 
 def calcular_precio(categoria, precio):
 
@@ -33,9 +26,7 @@ def calcular_precio(categoria, precio):
 
     return precio_final
 
-# ----------------------------------------
-# Mostrar resultados
-# ----------------------------------------
+
 
 print("==============================================")
 print("      PROMOCIÓN DEL RESTAURANTE")
